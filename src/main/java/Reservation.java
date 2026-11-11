@@ -7,6 +7,9 @@ public class Reservation {
 
     public Reservation(String roomType, double price, int numberOfNight, boolean weekend){
         this.roomType = roomType;
+        this.price = price;
+        this.numberOfNight = numberOfNight;
+        this.weekend = weekend;
     }
     public String getRoomType(){
         return roomType;
